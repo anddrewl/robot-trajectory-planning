@@ -5,12 +5,12 @@ Implementation of a control system for a differential-drive robot in the RoboHub
 
 ### Create and activate a Python virtual environment:
 ```
-python3 -m virtualenv ece486_ece687_project_venv
-source ece486_ece687_project_venv/bin/activate
+python3 -m virtualenv robot_venv
+source robot_venv/bin/activate
 ```
 This step requires the package `virtualenv` to be installed, which can be done via `python3 -m pip install virtualenv`.
 
-### Install latest MQTT client package, required to communicate with the backend interfacing with the robots, in order to send commands and receive poses:
+### Install latest MQTT client package, required to communicate with the backend PC & robot (send commands & receive poses):
 ```
 python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade paho-mqtt
